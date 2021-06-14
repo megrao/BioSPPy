@@ -11,6 +11,7 @@ physiological signals (biosignals):
     * Electroencephalogram (EEG)
     * Electromyogram (EMG)
     * Respiration (Resp)
+    * Ballistocardiogram (BCG)
 
 :copyright: (c) 2015-2021 by Instituto de Telecomunicacoes
 :license: BSD 3-clause, see LICENSE for more details.
@@ -20,4 +21,4 @@ physiological signals (biosignals):
 from __future__ import absolute_import, division, print_function
 
 # allow lazy loading
-from . import abp, bvp, ppg, ecg, eda, eeg, emg, resp, tools
+from . import abp, bvp, ppg, ecg, eda, eeg, emg, resp, bcg, tools
